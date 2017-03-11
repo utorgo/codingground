@@ -7,4 +7,7 @@
 * [Запуск приложения](start-workflow.md)
 * [Говорим «Привет»](start-hello.md)
 * [Работа с формами](start-forms.md)
+* [Работа с базами данных](start-databases.md)
+* [Генерация кода при помощи Gii](start-gii.md)
+* [Взгляд в будущее](start-looking-ahead.md)
 
