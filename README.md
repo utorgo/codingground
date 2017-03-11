@@ -1,5 +1,4 @@
-Полное руководство по Yii 2.0
-=============================
+# Полное руководство по Yii 2.0
 
 Данное руководство выпущено в соответствии с [положениями о документации Yii](http://www.yiiframework.com/doc/terms/).
 
@@ -7,16 +6,12 @@ All Rights Reserved.
 
 2014 © Yii Software LLC.
 
-
-Введение
---------
+## Введение
 
 * [О Yii](intro-yii.md)
 * [Обновление с версии 1.1](intro-upgrade-from-v1.md)
 
-
-Первое знакомство
------------------
+## Первое знакомство
 
 * [Установка Yii](start-installation.md)
 * [Запуск приложения](start-workflow.md)
@@ -26,9 +21,7 @@ All Rights Reserved.
 * [Генерация кода при помощи Gii](start-gii.md)
 * [Что дальше?](start-looking-ahead.md)
 
-
-Структура приложения
---------------------
+## Структура приложения
 
 * [Обзор](structure-overview.md)
 * [Входные скрипты](structure-entry-scripts.md)
@@ -43,9 +36,7 @@ All Rights Reserved.
 * [Ресурсы](structure-assets.md)
 * [Расширения](structure-extensions.md)
 
-
-Обработка запросов
-------------------
+## Обработка запросов
 
 * [Обзор](runtime-overview.md)
 * [Bootstrapping](runtime-bootstrapping.md)
@@ -56,9 +47,7 @@ All Rights Reserved.
 * [Обработка ошибок](runtime-handling-errors.md)
 * [Логирование](runtime-logging.md)
 
-
-Основные понятия
-----------------
+## Основные понятия
 
 * [Компоненты](concept-components.md)
 * [Свойства](concept-properties.md)
@@ -70,11 +59,9 @@ All Rights Reserved.
 * [Service Locator](concept-service-locator.md)
 * [Dependency Injection Container](concept-di-container.md)
 
+## Работа с базами данных
 
-Работа с базами данных
-----------------------
-
-* [Объекты доступа к данным (DAO)](db-dao.md) - Соединение с базой данных, простые запросы, транзакции и работа со схемой.
+* [Объекты доступа к данным \(DAO\)](db-dao.md) - Соединение с базой данных, простые запросы, транзакции и работа со схемой.
 * [Построитель запросов](db-query-builder.md) - Запросы к базе данных через простой слой абстракции.
 * [Active Record](db-active-record.md) - Получение объектов AR, работа с ними и определение связей.
 * [Миграции](db-migrations.md) - Контроль версий схемы данных при работе в команде.
@@ -83,9 +70,7 @@ All Rights Reserved.
 * [MongoDB](https://github.com/yiisoft/yii2-mongodb/blob/master/docs/guide-ru/README.md)
 * [ElasticSearch](https://github.com/yiisoft/yii2-elasticsearch/blob/master/docs/guide/README.md)
 
-
-Получение данных от пользователя
---------------------------------
+## Получение данных от пользователя
 
 * [Создание форм](input-forms.md)
 * [Валидация](input-validation.md)
@@ -93,9 +78,7 @@ All Rights Reserved.
 * [Табличный ввод](input-tabular-input.md)
 * [Работа с несколькими моделями](input-multiple-models.md)
 
-
-Отображение данных
-------------------
+## Отображение данных
 
 * [Форматирование данных](output-formatting.md)
 * [Постраничная разбивка](output-pagination.md)
@@ -105,9 +88,7 @@ All Rights Reserved.
 * [Работа с клиентскими скриптами](output-client-scripts.md)
 * [Темизация](output-theming.md)
 
-
-Безопасность
-------------
+## Безопасность
 
 * [Обзор](security-overview.md)
 * [Аутентификация](security-authentication.md)
@@ -117,9 +98,7 @@ All Rights Reserved.
 * [Клиенты авторизации](https://github.com/yiisoft/yii2-authclient/blob/master/docs/guide-ru/README.md)
 * [Лучшие практики](security-best-practices.md)
 
-
-Кеширование
------------
+## Кеширование
 
 * [Обзор](caching-overview.md)
 * [Кэширование данных](caching-data.md)
@@ -127,9 +106,7 @@ All Rights Reserved.
 * [Кэширование страниц](caching-page.md)
 * [HTTP кэширование](caching-http.md)
 
-
-Веб-сервисы REST
-----------------
+## Веб-сервисы REST
 
 * [Быстрый старт](rest-quick-start.md)
 * [Ресурсы](rest-resources.md)
@@ -141,17 +118,13 @@ All Rights Reserved.
 * [Версионирование](rest-versioning.md)
 * [Обработка ошибок](rest-error-handling.md)
 
-
-Инструменты разработчика
-------------------------
+## Инструменты разработчика
 
 * [Отладочная панель и отладчик](https://github.com/yiisoft/yii2-debug/blob/master/docs/guide/README.md)
 * [Генерация кода с Gii](https://github.com/yiisoft/yii2-gii/blob/master/docs/guide/README.md)
 * [Генератор документации API](https://github.com/yiisoft/yii2-apidoc)
 
-
-Тестирование
-------------
+## Тестирование
 
 * [Обзор](test-overview.md)
 * [Настройка тестового окружения](test-environment-setup.md)
@@ -160,10 +133,7 @@ All Rights Reserved.
 * [Приёмочные тесты](test-acceptance.md)
 * [Фикстуры](test-fixtures.md)
 
-
-Специальные темы
-----------------
-
+## Специальные темы
 
 * [Шаблон приложения advanced](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/README.md)
 * [Создание приложения с нуля](tutorial-start-from-scratch.md)
@@ -176,9 +146,7 @@ All Rights Reserved.
 * [Шаблонизаторы](tutorial-template-engines.md)
 * [Работа со сторонним кодом](tutorial-yii-integration.md)
 
-
-Виджеты
--------
+## Виджеты
 
 * [GridView](http://www.yiiframework.com/doc-2.0/yii-grid-gridview.html)
 * [ListView](http://www.yiiframework.com/doc-2.0/yii-widgets-listview.html)
@@ -191,11 +159,12 @@ All Rights Reserved.
 * [Виджеты Bootstrap](https://github.com/yiisoft/yii2-bootstrap/blob/master/docs/guide-ru/README.md)
 * [Виджеты Jquery UI](https://github.com/yiisoft/yii2-jui/blob/master/docs/guide/README.md)
 
-
-Хелперы
--------
+## Хелперы
 
 * [Обзор](helper-overview.md)
 * [ArrayHelper](helper-array.md)
 * [Html](helper-html.md)
 * [Url хелпер](helper-url.md)
+
+
+
