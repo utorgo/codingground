@@ -1,4 +1,4 @@
-# Полное руководство по Yii 2.0
+# [caching-data.md](caching-data.md)Полное руководство по Yii 2.0
 
 Данное руководство выпущено в соответствии с [положениями о документации Yii](http://www.yiiframework.com/doc/terms/).
 
